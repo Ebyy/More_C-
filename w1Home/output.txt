@@ -1,0 +1,12 @@
+Script started on Mon 20 May 2019 11:41:32 PM EDT
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Command Line : w1 oop345 btp305 
+3: oop345
+4: btp305
+
+[38;5;9m------------------------
+End Testing the Program![0m
+
+Script done on Mon 20 May 2019 11:41:32 PM EDT

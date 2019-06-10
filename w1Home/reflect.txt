@@ -1,0 +1,29 @@
+PART A
+1. The difference between internal and external linkage using examples from your code
+
+Internal linkage makes a variable invisible to other translation units but visible to other 
+scopes in its own translation unit by using the keyword static as seen in the case of the MAX variable
+ while External linkage when a variable is made available for use to other translation units
+ by using the keyword extern as used for the INITIAL variable
+
+2. The execution effect of the code in the process() function that creates the String object 
+which is inserted into standard output (which member function(s) does this code call)
+
+It calls the the overloaded << non-friend helper function that in turn calls the display function 
+then displays the string object to screen.
+
+3. The changes that you made in upgrading your String class.
+
+For my data member, I changed it to a C null terminated pointer then dynamically allocated the memory for 
+each instance of the string class in the constructor using the NEW keyword.
+
+PART B
+QUIZ CORRECTION
+Question 5. the keyword used to declare a class variable is static
+ 
+Question 6. 
+similarity: Union and Structs both have their privacy level as public
+differnece: The size of a struct is a sum of the sizes of its data members as they all have their individual 
+spaces allocated in memory while that of a union is set to the data with the largest size and utilized by a 
+single data member at a time as it is just one space in memory allocated to the union and that one can only 
+store data for just one member at a time.
